@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-"""ERA5 project peak-day transient eddy Qe/Fe lag0-7 maps.
-
-This extends the Fig. 5-5/5-6 transient eddy forcing workflow to the project
-peak dates. It uses author-code conventions: daily anomalies are band-pass
-filtered with a 3-8 day Butterworth filter; Qe filters u/v/t but not omega;
-Fe filters u/v before computing relative-vorticity forcing.
-"""
-
 from __future__ import annotations
 
 import argparse
