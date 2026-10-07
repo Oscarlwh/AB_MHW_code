@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""ERA5 project peak-day Qd-induced geopotential tendency, author-style.
-
-This workflow follows the author's code style validated with Fig. 3-8:
-1) smooth T/u/v/omega with a 3-day running mean before computing Qd;
-2) use a no-leap daily climatology;
-3) use the supplied Laplace_SOR.py with fixed lateral boundaries;
-4) use area-mean sigma1 and a conservative SOR relaxation factor.
-"""
-
 from __future__ import annotations
 
 import argparse
