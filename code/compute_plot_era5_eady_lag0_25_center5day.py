@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""Compute and plot ERA5 Eady growth-rate anomalies for project peak dates.
-
-The daily Eady rate is calculated before removing the 1981-2020 no-leap
-daily climatology. Each displayed lag is a centered five-day mean (L-2..L+2).
-Outputs are isolated from the existing Qd/Qe/Fe and geopotential-tendency data.
-"""
-
 from __future__ import annotations
 
 import argparse
