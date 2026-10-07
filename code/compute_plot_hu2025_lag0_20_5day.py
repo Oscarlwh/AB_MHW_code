@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""Compute and plot Hu-style centered 5-day GT sections.
-
-Outputs a new directory and does not overwrite earlier lag0-7 figures.
-The 5-day mean is centered: lag L panel = mean(lag L-2..L+2).
-"""
-
 from __future__ import annotations
 
 import argparse
