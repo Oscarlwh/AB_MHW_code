@@ -8,7 +8,7 @@ from matplotlib.colors import Normalize
 import numpy as np
 import pandas as pd
 
-import plot_ab_mhw_peak_core_5d_bootstrap as figure
+import ab_bootstrap_helpers as figure
 
 
 OUT_STEM = (

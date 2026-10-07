@@ -33,7 +33,7 @@ import pandas as pd
 from scipy.interpolate import PchipInterpolator
 import xarray as xr
 
-import time_pressure_TZ_13_plus_2004_peak_lead10_lag10 as base
+import vertical_profile_helpers as base
 
 
 ERA5_ROOT = Path("/path/to/data/ERA5")
