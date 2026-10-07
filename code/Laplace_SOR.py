@@ -1,36 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 16 15:10:22 2024
-
-@author: admin
-"""
-
-"""
-## Laplace inversion by SOR method
-# function [GT] = laplace_SOR(forcing,sigma,SC,CRI,dx,dy,p,lat,type)
-# Original code written by Liying WANG
-# Check, modify, and add some annotations by Linyuan SUN
-# change to python code by Xi Hu
-# Reference: LI Rui (2013), The role of transient eddy forcing in the variability of the Northern Hemisphere Annular Mode during boreal winter. Master's thesis, NJU.
-
-# Inputs
-# [forcing]: Forcing terms (i.e., Qd Qeddy Feddy), note that the vertical dimension (level) needs starting from lower to upper level, e.g., 100000-2500Pa [lon, lat, level]
-# [sigma]: area-mean stability para., e.g. inversion on the Northern Hemisphere can take the NH-area-mean value
-# [SC]: Relaxation iteration factor, 1~2 generally taken
-# [CRI]: Iterative convergence criteria, 1e-12 generally taken
-#        Theoretically, iteration ending requires all grids to satisfy the CRI condition, but it's very difficult in practice
-#        Thus, there are fixed iterations of 500 or even more, and the CRI judgment in this code has been annotated
-# [dx dy]: Horizontal longitude&latitude RADIAN grid distance, e.g., dx = 1deg*pi/180
-# [p]: The raw pressure level (without being interpolated, units: Pa), from lower to upper level, 100000-10000Pa
-# [lat]: Ascending latitude, e.g., 0 to 90N (RADIAN conversion is already included within the code)
-# [type]: 1-Qeddy Qd; 2-Feddy
-# Boundary Condition: The values in vertical bottom and top boundaries are directly replaced by the neighboring values after iteration
-#                     x-y horizontal boundary is not processed (kept as 0 value), so the input forcing term should be slightly larger than the plotting region
-
-# Output
-# [GT]: geopotential tendency, units: m2/s3
-
-"""
 import numpy as np
 from scipy.interpolate import CubicSpline
 
