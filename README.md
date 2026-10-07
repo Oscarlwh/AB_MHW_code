@@ -22,7 +22,7 @@ The source tree contains MHW identification, atmospheric data preprocessing, blo
 | S5 | `code/figure_s05_eddy_geopotential_tendency.py` |
 
 
-All scripts are in `code/`. Figure entrypoints are named `figure_01`–`figure_05` and `figure_s01`–`figure_s05`; the remaining scripts prepare data or provide diagnostic and plotting helpers. Unused alternate plot versions are excluded.
+All scripts are in `code/`. Figure entrypoints are named `figure_01`–`figure_05` and `figure_s01`–`figure_s05`; the remaining scripts prepare data or provide diagnostic and plotting helpers. 
 
 ## Data and environment
 
