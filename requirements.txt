@@ -1,0 +1,14 @@
+numpy
+pandas
+xarray
+scipy
+matplotlib
+netCDF4
+dask[array]
+cartopy
+cdsapi
+tqdm
+python-docx
+cfgrib
+eccodes
+requests
