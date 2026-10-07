@@ -1,5 +1,7 @@
 {
   "code/Laplace_SOR.py": "2b92a3c4e87653278277f192c6fb6622644c7e0aa6604b92af296d101ec92246",
+  "code/ab_bootstrap_helpers.py": "faee238d4f90b5f89b7c452845f8103f7ad4ab3d32196b90e0e3e701254d1272",
+  "code/ab_plot_helpers.py": "2ab7097707a80bdab7a683c59e74d411da8e458e8211cae2b22c4c73f517679a",
   "code/clim_ano.py": "65953d6524e689fb5315c56b77c83170927e2bb6d67d8488baea191eaa8c3d0b",
   "code/clim_ano_5N90N.py": "524fa745c214dfc4622fd26c9ec7ef203ff1c1e1da4c8ea26729c9f29d9ab25a",
   "code/composite_13_plus_2004_5d_peak_twocolumn.py": "6587d7a94a9c519b77bd55c3915495b517a50de3e96e8c4d0e71487fdd97a277",
@@ -15,7 +17,7 @@
   "code/detect_blocking_events.py": "53c03c1ccfe976621eb50fcca6e3ad1e98feb1cc4289c02110f87e3013cc65db",
   "code/download_era5_pressure_levels.py": "8122bb5604becad5656635a25359460ed67795b12d6dbaf4ae446128181d7ca6",
   "code/download_era5_pressure_levels_chunked.py": "76656894d96f36aa3674e3161b62bf1c3102d2ff7e8ceec11ceadb3480b7493e",
-  "code/figure_01_ab_evolution.py": "47aafd23802a2d72ea429391c2cf8f7954ba548c26fa8d4bc5878648b070e15c",
+  "code/figure_01_ab_evolution.py": "68bbce1d05371d9218abc420255e7fd131c9574b16b19029f0d00253ed180e28",
   "code/figure_02_z500_evolution.py": "dee2b66756bf801b3dc7e8b753a090a581b1c14c3f8304480d2442f507bdbf2b",
   "code/figure_03_heat_flux_heating.py": "392f260984086cb61fac09c377dd92f4b0b075bac0dde057ff066d7966b66dc6",
   "code/figure_04_geopotential_tendencies_eady.py": "d2a431a9b29e76387997bd6535a48430da9c96e79660ba14a75ef85f628bab9d",
@@ -54,6 +56,7 @@
   "code/thermal_budget_helpers.py": "d4dc7490d422764938daef150c136affce5249355bf0ee646ea12d059bf88d1d",
   "code/thermal_daily_helpers.py": "53761c4de064d578c71923aebec56764051eb99c09d770a09af5d5e6a1bc2a1c",
   "code/thermal_plot_helpers.py": "81fec16f9d82d5000cd68c6e92395dd2ef8aa8e16155c85bfb0df1d6253cb194",
-  "code/time_pressure_TZW_13_plus_2004_peak_lead10_lag10.py": "77b0c835bbdb869a8deef40ba593d9928a84d276b980d91466d73b93f094e9f6",
+  "code/time_pressure_TZW_13_plus_2004_peak_lead10_lag10.py": "65ebd7c6efe1556f3bcf230f0b95f9bdb86062905eeebf29ad8ad40177e3b7cc",
+  "code/vertical_profile_helpers.py": "851826e930d1febf6b1a913f93dd691b11bc01596a8c1df74182cc388def476a",
   "code/z500_plot_helpers.py": "90626e2ac643d4978a0f76ab750af0419158f0d925c2243d5cc228ced310ead5"
 }

@@ -4,7 +4,7 @@ Python analysis and plotting scripts for the study of coupled feedback between A
 
 ## Contents
 
-All 57 Python source files are in the single `code/` directory.
+All 60 Python source files are in the single `code/` directory.
 
 The source tree contains MHW identification, atmospheric data preprocessing, blocking detection, thermodynamic and transient-eddy diagnostics, and figure generation. `figure_entrypoints.json` identifies the entry scripts and preprocessing steps for main-text Figures 1–5, supplementary Figures S1–S5, and Table S1.
 
