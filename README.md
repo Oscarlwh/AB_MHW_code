@@ -6,7 +6,7 @@ Python analysis and plotting scripts for the study of coupled feedback between A
 
 All 60 Python source files are in the single `code/` directory.
 
-The source tree contains MHW identification, atmospheric data preprocessing, blocking detection, thermodynamic and transient-eddy diagnostics, and figure generation. `figure_entrypoints.json` identifies the entry scripts and preprocessing steps for main-text Figures 1–5, supplementary Figures S1–S5, and Table S1.
+The source tree contains MHW identification, atmospheric data preprocessing, blocking detection, thermodynamic and transient-eddy diagnostics, and figure generation. `figure_entrypoints.json` identifies the entry scripts and preprocessing steps for main-text Figures 1–5, supplementary Figures S1–S5.
 
 | Figure | Entry script |
 |---|---|
@@ -21,7 +21,6 @@ The source tree contains MHW identification, atmospheric data preprocessing, blo
 | S4 | `code/figure_s04_convective_precipitation.py` |
 | S5 | `code/figure_s05_eddy_geopotential_tendency.py` |
 
-Table S2 scripts and exploratory revisions are not included in this release.
 
 All scripts are in `code/`. Figure entrypoints are named `figure_01`–`figure_05` and `figure_s01`–`figure_s05`; the remaining scripts prepare data or provide diagnostic and plotting helpers. Unused alternate plot versions are excluded.
 
