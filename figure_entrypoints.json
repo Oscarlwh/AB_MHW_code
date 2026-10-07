@@ -1,64 +1,64 @@
 {
   "Figure 1": [
-    "ABH/plot_ab_mhw_peak_core_5d_bootstrap_contrast_tight_linewidth.py",
-    "ABH/数据预处理.py",
-    "ABH/merge.py",
-    "ABH/clim_ano.py",
-    "ABH/ONDJF_10_2/event_ONDJF.py",
-    "ABH/ONDJF_10_2/intensity_ONDJF.py"
+    "code/figure_01_ab_evolution.py",
+    "code/preprocess_z500.py",
+    "code/merge_z500_daily.py",
+    "code/clim_ano.py",
+    "code/detect_blocking_events.py",
+    "code/compute_blocking_intensity.py"
   ],
   "Figure 2": [
-    "2026-07-16/ni/optimize_z500_group13_vs_2004_2col7row_shortwide.py",
-    "ABH/composite_13_plus_2004_5d_peak_twocolumn.py",
-    "ABH/preprocess_5N90N.py",
-    "ABH/clim_ano_5N90N.py"
+    "code/figure_02_z500_evolution.py",
+    "code/composite_13_plus_2004_5d_peak_twocolumn.py",
+    "code/preprocess_5N90N.py",
+    "code/clim_ano_5N90N.py"
   ],
   "Figure 3": [
-    "2026-07-16/ni/make_early_winter_sixpanel_thermal_processes.py",
-    "heat_flux/code/17_hf_anomaly_peak_two_groups_2020in_2004only.py",
-    "heat_flux/code/heat_flux_cut.py",
-    "heat_flux/code/sshf_chazhi.py",
-    "heat_flux/code/slhf_chazhi.py",
-    "heat_flux/code/hf_detrended.py",
-    "heat_flux/code/hf_clim_anomaly_cal.py",
-    "非绝热加热/code_era5_qd/plot_jra55_q1_component_vertical_profiles_raw_clim_two_groups_13plus2004.py",
-    "非绝热加热/code_era5_qd/plot_jra55_q1_component_vertical_profiles_lag_windows_two_groups_13plus2004.py"
+    "code/figure_03_heat_flux_heating.py",
+    "code/composite_turbulent_heat_flux.py",
+    "code/heat_flux_cut.py",
+    "code/sshf_chazhi.py",
+    "code/slhf_chazhi.py",
+    "code/hf_detrended.py",
+    "code/hf_clim_anomaly_cal.py",
+    "code/plot_jra55_q1_component_vertical_profiles_raw_clim_two_groups_13plus2004.py",
+    "code/plot_jra55_q1_component_vertical_profiles_lag_windows_two_groups_13plus2004.py"
   ],
   "Figure 4": [
-    "非绝热加热/code_era5_qd/compute_plot_gt_qd_qe_fe_lag0_30_corrected.py",
-    "非绝热加热/code_era5_qd/compute_plot_era5_eady_lag0_25_center5day.py",
-    "非绝热加热/code_era5_qd/download_era5_pressure_levels.py",
-    "非绝热加热/code_era5_qd/download_era5_pressure_levels_chunked.py",
-    "非绝热加热/code_era5_qd/standardize_era5_raw_to_daily_1deg.py",
-    "非绝热加热/code_era5_qd/standardize_era5_months_to_daily_1deg.py",
-    "非绝热加热/code_era5_qd/prepare_era5_1986_2023_oct_12lev.py",
-    "非绝热加热/code_era5_qd/merge_era5_17lev_selected_months.py",
-    "非绝热加热/code_era5_qd/merge_era5_202301_850_fix.py"
+    "code/figure_04_geopotential_tendencies_eady.py",
+    "code/compute_plot_era5_eady_lag0_25_center5day.py",
+    "code/download_era5_pressure_levels.py",
+    "code/download_era5_pressure_levels_chunked.py",
+    "code/standardize_era5_raw_to_daily_1deg.py",
+    "code/standardize_era5_months_to_daily_1deg.py",
+    "code/prepare_era5_1986_2023_oct_12lev.py",
+    "code/merge_era5_17lev_selected_months.py",
+    "code/merge_era5_202301_850_fix.py"
   ],
   "Figure 5": [
-    "2026-07-16/ni/CAM5_SST_sensitivity/cam5_sst_sensitivity_analysis.py"
+    "code/figure_05_cam5_response.py"
   ],
   "Figure S1": [
-    "ABH/plot_mhw14_and_2004_intensity_grl.py",
-    "MHW/code/MHW_identify/1983-2012气候态及阈值90分位.py",
-    "MHW/code/MHW_identify/1983-2012气候态及阈值90分位_smooth.py",
-    "MHW/code/MHW_identify/事件识别_smooth.py"
+    "code/figure_s01_mhw_intensity.py",
+    "code/compute_mhw_climatology_threshold.py",
+    "code/smooth_mhw_climatology_threshold.py",
+    "code/identify_mhw_events.py"
   ],
   "Figure S2": [
-    "ABH/time_pressure_TZW_13_plus_2004_peak_lead10_lag10_MHW_40N50N_200E225E.py"
+    "code/figure_s02_vertical_evolution.py"
   ],
   "Figure S3": [
-    "非绝热加热/code_era5_qd/compute_plot_era5_total_precip_peak_lag0_7_two_groups.py",
-    "非绝热加热/code_era5_qd/prepare_era5_2023_precip_daily_1deg.py"
+    "code/figure_s03_total_precipitation.py",
+    "code/prepare_era5_2023_precip_daily_1deg.py"
   ],
   "Figure S4": [
-    "非绝热加热/code_era5_qd/compute_plot_era5_convective_precip_peak_lag0_7_two_groups.py"
+    "code/figure_s04_convective_precipitation.py"
   ],
   "Figure S5": [
-    "非绝热加热/code_era5_qd/compute_plot_gteddy_lag0_30_corrected.py"
+    "code/figure_s05_eddy_geopotential_tendency.py"
   ],
   "Table S1": [
-    "MHW/code/MHW_identify/事件识别_smooth.py",
-    "2026-07-16/ni/update_table_s1_from_csv.py"
+    "code/identify_mhw_events.py",
+    "code/table_s01_mhw_events.py"
   ]
 }

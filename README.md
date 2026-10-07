@@ -4,24 +4,26 @@ Python analysis and plotting scripts for the study of coupled feedback between A
 
 ## Contents
 
-The 60 Python source files are distributed in `sources.zip`. Extract this archive at the repository root to restore the `sources/` directory and its subdirectories before running the scripts.
+All 57 Python source files are in the single `code/` directory.
 
 The source tree contains MHW identification, atmospheric data preprocessing, blocking detection, thermodynamic and transient-eddy diagnostics, and figure generation. `figure_entrypoints.json` identifies the entry scripts and preprocessing steps for main-text Figures 1–5, supplementary Figures S1–S5, and Table S1.
 
-| Figure | Entry script under `sources/` |
+| Figure | Entry script |
 |---|---|
-| 1 | `ABH/plot_ab_mhw_peak_core_5d_bootstrap_contrast_tight_linewidth.py` |
-| 2 | `2026-07-16/ni/optimize_z500_group13_vs_2004_2col7row_shortwide.py` |
-| 3 | `2026-07-16/ni/make_early_winter_sixpanel_thermal_processes.py` |
-| 4 | `非绝热加热/code_era5_qd/compute_plot_gt_qd_qe_fe_lag0_30_corrected.py` |
-| 5 | `2026-07-16/ni/CAM5_SST_sensitivity/cam5_sst_sensitivity_analysis.py` |
-| S1 | `ABH/plot_mhw14_and_2004_intensity_grl.py` |
-| S2 | `ABH/time_pressure_TZW_13_plus_2004_peak_lead10_lag10_MHW_40N50N_200E225E.py` |
-| S3 | `非绝热加热/code_era5_qd/compute_plot_era5_total_precip_peak_lag0_7_two_groups.py` |
-| S4 | `非绝热加热/code_era5_qd/compute_plot_era5_convective_precip_peak_lag0_7_two_groups.py` |
-| S5 | `非绝热加热/code_era5_qd/compute_plot_gteddy_lag0_30_corrected.py` |
+| 1 | `code/figure_01_ab_evolution.py` |
+| 2 | `code/figure_02_z500_evolution.py` |
+| 3 | `code/figure_03_heat_flux_heating.py` |
+| 4 | `code/figure_04_geopotential_tendencies_eady.py` |
+| 5 | `code/figure_05_cam5_response.py` |
+| S1 | `code/figure_s01_mhw_intensity.py` |
+| S2 | `code/figure_s02_vertical_evolution.py` |
+| S3 | `code/figure_s03_total_precipitation.py` |
+| S4 | `code/figure_s04_convective_precipitation.py` |
+| S5 | `code/figure_s05_eddy_geopotential_tendency.py` |
 
 Table S2 scripts and exploratory revisions are not included in this release.
+
+All scripts are in `code/`. Figure entrypoints are named `figure_01`–`figure_05` and `figure_s01`–`figure_s05`; the remaining scripts prepare data or provide diagnostic and plotting helpers. Unused alternate plot versions are excluded.
 
 ## Data and environment
 
@@ -37,7 +39,7 @@ Python packages are listed in `requirements.txt`. GRIB processing requires ecCod
 4. Execute the selected script in an environment containing its dependencies. For example:
 
 ```bash
-python sources/2026-07-16/ni/CAM5_SST_sensitivity/cam5_sst_sensitivity_analysis.py \
+python code/figure_05_cam5_response.py \
   --input /path/to/CAM5/output \
   --output /path/to/figures \
   --only-z500-days15-29 --z500-no-boxes
