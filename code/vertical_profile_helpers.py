@@ -1,4 +1,4 @@
- __future__ import annotations
+ from__future__ import annotations
 
 import argparse
 import calendar
