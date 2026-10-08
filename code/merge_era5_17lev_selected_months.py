@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""Merge existing 8-level ERA5 monthly files with newly downloaded upper levels.
-
-The existing standardized monthly files contain daily 1-degree t/u/v/w on
-8 levels. The new CDS files contain 0.25-degree, 4-times-daily data on the
-missing 9 levels. This script converts the new files to daily 1-degree fields
-and writes combined 17-level monthly files without touching the original
-8-level outputs.
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
