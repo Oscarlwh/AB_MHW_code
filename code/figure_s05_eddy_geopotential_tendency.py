@@ -25,7 +25,7 @@ import compute_era5_qd_peak_lag0_7_author_sor_17lev as qdgt  # noqa: E402
 import compute_era5_qe_fe_geopotential_tendency as qefegt  # noqa: E402
 import compute_era5_qe_fe_peak_lag0_7 as qefe  # noqa: E402
 import compute_plot_lag0_20_5day as controller  # noqa: E402
-import plot_hu2025_lag3_qd_qe_fe_comparison as plotbase  # noqa: E402
+import plot_lag3_qd_qe_fe_comparison as plotbase  # noqa: E402
 
 
 DATA_ROOT = Path("/path/to/data/非绝热加热异常_ERA5反推")
