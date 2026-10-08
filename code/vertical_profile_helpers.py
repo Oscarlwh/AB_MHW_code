@@ -1,18 +1,4 @@
-#!/usr/bin/env python3
-"""Build N=13 plus 2004 ERA5 temperature/Z time-pressure sections.
-
-The script creates cosine-latitude-weighted daily area means for 50-60N,
-180-200E, removes linear trends over 1981-2024, subtracts a 1981-2020
-no-leap daily climatology, and plots centered 5-day means from lead 10 to
-lag 10 days relative to each MHW peak.
-
-The large annual ERA5 files are only read once. Small yearly and combined
-regional caches are retained under the output directory. Missing complete
-years (1986, 2023, and 2024) are downloaded from CDS as regional 1-degree
-monthly files without replacing any existing source data.
-"""
-
-from __future__ import annotations
+ __future__ import annotations
 
 import argparse
 import calendar
