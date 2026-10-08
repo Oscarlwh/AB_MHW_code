@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""Build a corrected forcing-first lag0-30 mean GTeddy section.
-
-The older lag-2..27 Qe/Fe event file stored fields by the numeric lag value
-instead of by the lag coordinate position. Its first 28 array positions still
-contain the correct physical lag0..27 fields, so this script decodes those
-positions, computes lag28..30 explicitly, averages the 31-day forcing, and
-then performs one SOR inversion per factor and member.
-"""
-
 from __future__ import annotations
 
 import gc
