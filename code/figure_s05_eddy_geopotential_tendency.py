@@ -46,9 +46,9 @@ MISSING_SIGMA_FILE = OUT_ROOT / "ERA5_sigma1_missing_doy21_23_12lev_1981_2020.nc
 FORCING_FILE = OUT_ROOT / "ERA5_Qe_Fe_lag0_30_forcing_mean_corrected.nc"
 GT_FILE = OUT_ROOT / "ERA5_GT_by_Qe_Fe_lag0_30_forcing_mean_corrected_author_SOR.nc"
 
-FIG_ROOT = DATA_ROOT / "hu2025_GTeddy_N13_vs_2004_lag0_30_mean_corrected_lon180_225E"
+FIG_ROOT = DATA_ROOT / "GTeddy_N13_vs_2004_lag0_30_mean_corrected_lon180_225E"
 FIG_FILE = FIG_ROOT / "ERA5_Hu2025_GTeddy_N13_vs_2004_lag0_30_mean_corrected_lat_pressure.png"
-CHECK_FILE = FIG_ROOT / "ERA5_Hu2025_GTeddy_N13_vs_2004_lag0_30_mean_corrected_check.csv"
+CHECK_FILE = FIG_ROOT / "ERA5_GTeddy_N13_vs_2004_lag0_30_mean_corrected_check.csv"
 
 LEVELS = [1000, 925, 850, 700, 600, 500, 400, 300, 250, 200, 150, 100]
 LAGS = list(range(31))
