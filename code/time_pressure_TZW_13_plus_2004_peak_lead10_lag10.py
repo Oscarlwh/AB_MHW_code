@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""Build professional ERA5 T-Z-omega time-pressure sections for N=13 plus 2004.
-
-Temperature and geopotential-height anomalies are reused from the established
-T/Z workflow. Pressure vertical velocity (omega) is processed with the same
-1981-2024 detrending, 1981-2020 no-leap climatology, and centered 5-day mean.
-The native 21-day by 12-level values are saved; shape-preserving interpolation
-is used only to render smoother shading and contours.
-"""
-
 from __future__ import annotations
 
 import argparse
