@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""Run the established T-Z-omega workflow over the MHW region.
-
-This entry point keeps earlier products untouched by assigning independent
-T/Z, omega, download, and figure caches before invoking the existing workflow.
-"""
-
 from __future__ import annotations
 
 import gc
