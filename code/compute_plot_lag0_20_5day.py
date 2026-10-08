@@ -31,7 +31,7 @@ DATA_ROOT = Path("/path/to/data/非绝热加热异常_ERA5反推")
 PREP12_ROOT = DATA_ROOT / "era5_daily_1deg_monthly_12lev"
 QD_OUT = DATA_ROOT / "era5_qd_peak_lagm2_27_author_sor_12lev"
 QEFE_OUT = DATA_ROOT / "era5_qe_fe_geopotential_tendency_lagm2_27"
-FIG_OUT = DATA_ROOT / "hu2025_fig4_style_own_region_N13_plus_2004_lag0_25_center5day_lon180_225E"
+FIG_OUT = DATA_ROOT / "fig4_style_own_region_N13_plus_2004_lag0_25_center5day_lon180_225E"
 
 LAGS_FULL = list(range(-2, 28))
 PANEL_LAGS = [0, 5, 10, 15, 20, 25]
