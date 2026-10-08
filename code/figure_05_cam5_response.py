@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""CAM5 fixed-SST idealized sensitivity diagnostics.
-
-The archive contains 10 MHW-forced and 10 climatological-control atmospheric
-realisations, each with 29 daily samples on 17 pressure levels.  The anonymous
-first and second dimensions are interpreted as ensemble member and integration
-day, respectively.  All reported responses are MHW minus CTL.
-
-This script deliberately does not diagnose the imposed SST anomaly because the
-archive contains only the MHW forcing file, not its control counterpart.
-"""
-
 from __future__ import annotations
 
 import argparse
